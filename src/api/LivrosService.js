@@ -4,7 +4,7 @@ const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export class LivrosService {
   static getLivros() {
-    return axios.get(BASE_URL + "livros");
+    return axios.get(BASE_URL + "/livros");
   }
 
   static getLivro(id) {
